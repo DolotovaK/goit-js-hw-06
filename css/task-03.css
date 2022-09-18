@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.gallery-img{
+    display: block;
+    
+}
+.gallery-item {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item:not(:last-child) {
+    margin-bottom: 20px;
+}
