@@ -33,7 +33,7 @@ function createBoxes(amount) {
     box.style.width = boxSize + i * 10 + "px";
     box.style.height = boxSize + i * 10 + "px";
     box.classList.add("box");
-    boxesDiv.after(box);
+    boxesDiv.before(box);
   }
 }
 

@@ -20,7 +20,7 @@ const categories = document.querySelectorAll(".item");
 console.log("Number of categories:", categories.length);
 
 //2
-const countElementsForEachCategory = categories.forEach((category) => {
+categories.forEach((category) => {
   const titleText = category.firstElementChild.textContent;
   //   console.log(titleText);
   const elementsOfCategory = category.lastElementChild.children;
